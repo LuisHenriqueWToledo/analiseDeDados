@@ -1,0 +1,12 @@
+Idade,Nivel_Educacao,Experiencia_Anos,Renda_Mensal_BRL,Setor_Atividade,Target
+22,Médio Completo,1,1800,Comércio,Trabalho Decente (Renda Baixa)
+35,Superior Completo,10,6500,Tecnologia,Trabalho Decente
+19,Ensino Técnico,0,1500,Serviços,Trabalho Indigno (Informal)
+48,Médio Incompleto,25,3000,Construção,Trabalho Decente (Risco)
+28,Ensino Técnico,5,2800,Saúde,Trabalho Decente
+23,Ensino Técnico,1,1900,Beleza,Trabalho Decente (Renda Baixa)
+38,Superior Completo,15,7200,Engenharia,Trabalho Decente
+18,Médio Incompleto,0,1200,Agrícola,Trabalho Indigno (Condições Precárias)
+32,Ensino Técnico,6,3100,Logística,Trabalho Decente
+45,Pós-Graduação,22,12000,Pesquisa,Trabalho Decente
+(…)
