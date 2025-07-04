@@ -53,11 +53,21 @@ df_subset.isna().sum()
 # check novamente quantas linhas e colunas permaneceram.
 df_subset.shape
 
-#
+#Transformar valores tipo object ou string em numeros:
+# é possivel usar o label encoder, o One Hot Key ou fazer manualmente como abaixo. o codigo irá substituir cada categoria em um numero para poder ser utilizado o modelo de IA.
+df_subset['Coluna_Selecionada'] = df_subset['Coluna_Selecionada'].map({"Categoria_3": 3, "Categoria_2": 2, "Categoria_1": 1}) 
 
 
+#Transformar tambem o data set em valores numericos:
+df_subset['Target'] = df_subset['Target'].map({"Exemplo_EmpregoDecente": 1, "Exemplo_Emprego_Nao_Decente": 0})
 
 
+#Verificar se ainda existem colunas categóricas no data set
+df_subset = pd.get_dummies(df_subset, drop_first = True)
+
+
+#check novamente pelos tipos
+df_subset.dtypes
 
 
 
