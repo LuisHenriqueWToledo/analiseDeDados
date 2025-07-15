@@ -1,0 +1,1 @@
+Ótimo, o arquivo está excelente, mas gostaria de adicionar uma variável chamada “Distancia da Residencia”, para relacionar mais esse item ao “Target”
