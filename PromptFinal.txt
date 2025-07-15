@@ -1,1 +1,0 @@
-Com base nesse resultado eu agora gostaria que esse arquivo tivesse 10 mil linhas para que represente melhor a realidade de uma sociedade. Para isso, é importante ter um código em Python que gere e exporte para a mesma pasta onde está sendo executado. Gerar esse código dentro da área de copiar e colar dessa ferramenta.
