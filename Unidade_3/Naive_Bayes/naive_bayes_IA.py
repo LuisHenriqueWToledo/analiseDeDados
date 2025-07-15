@@ -1,11 +1,11 @@
 # Define a variavel y (Target)
 
-y = churn_df['Target']
+y = extracted_data['Target']
 
 
 # Define a variavel X (preditoras)
 
-X = churn_df.copy()
+X = extracted_data.copy()
 X = X.drop('Exited', axis=1)
 
 
