@@ -1,1 +1,1 @@
-
+Criar um arquivo .csv com 6 colunas para ser usado como dataset em uma aula de Análise de Dados de alunos do ensino técnico oferecido por escola pública brasileira onde a última coluna contenha o campo “Target” com 2 ou mais possibilidades de resultado baseado nas informações das outras colunas, com objetivo de ensinar Análise de Dados, Machine Learning e Inteligência Artificial. Deve representar um dos temas dos Objetivos de Desenvolvimentos Sustentáveis, proposto pela ONU para o Brasil sendo nesse caso o tema: “Trabalho decente”
