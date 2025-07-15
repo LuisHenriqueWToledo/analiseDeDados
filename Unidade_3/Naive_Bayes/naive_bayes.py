@@ -14,8 +14,11 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 # Importar o Dataset
 # Carregue o arquivo (.csv) criado anteriormente para o Dataframe chamado: 
 # OBS: o arquivo_criado.csv deve estar na sua pasta de trabalho ou indicar o caminho de onde estiver dentro das aspas.
+# exibir os primeiros 10 resultados do dataset 
 
 df_extracted_data = pd.read_csv('arquivo_criado.csv')
+df_extracted_data.head(10)
+
 
 # Exibir informações de alto nivel dos dados.
 
@@ -24,12 +27,14 @@ df_extracted_data.info()
 
 # Criar um novo data frame sem as colunas indesejadas. Exemplo: Raca, Numero_cpf, sexo (caso seja motivo de aumento do viés).
 
-extracted_data = df_extracted_data.drop(['Raca', 'Numero_cpf'], 
-                            axis=1)
+extracted_data = df_extracted_data.drop(['Raca', 'Numero_cpf'], axis=1)
+
 
 # Dependendo do seu data set, pode-se criar uma nova coluna com base na união de duas outras. Depende da sua interpretação do que pode ser importante.
 # Criar variavel "Lealdade":
+
 extracted_data = extracted_data['Lealdade'] = extracted_data['Tempo_cliente'] / churn_df['Idade']
+
 
 # Exibir valores unicos de uma localidade, por exemplo. Quer saber quais localidades existem.
 # No caso hipotetico abaixo, apos o comando, resulta em 3 localidades.
