@@ -1,0 +1,1 @@
+# Define the y (target) variable y = churn_df['Exited'] 4# Define the X (predictor) variables X = churn_df.copy() X = X.drop('Exited', axis=1) # Split into train and test sets X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, \ stratify=y, random_state=42)
