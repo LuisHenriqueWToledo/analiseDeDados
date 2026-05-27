@@ -1,9 +1,10 @@
-# Importe bibliotecas e modulos relevantes.
-
+# Standard operational package imports
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
+# Visualization package imports
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 
