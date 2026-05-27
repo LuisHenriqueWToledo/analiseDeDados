@@ -19,7 +19,7 @@ df_original.head(n = 10)
 # verificar os tipos de cada dado para cada coluna.
 df_original.dtypes
 
-
+# EDA - Explore data analisys
 # verificar as categorias de uma das colunas preditoras para possibilidade de inferencias significativas.
 df_original["Coluna_Selecionada"].unique()
 
