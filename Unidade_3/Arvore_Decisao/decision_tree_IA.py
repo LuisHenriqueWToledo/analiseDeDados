@@ -1,3 +1,10 @@
+# Important imports for modeling and evaluation
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GridSearchCV
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import plot_tree
+import sklearn.metrics as metrics
+
 # Para o aprendizado de maquina, separar o data set em dois conjuntos: treino (X_train, y_train) e teste (X_test, y_test)
 
 y = df_subset["Target"]
