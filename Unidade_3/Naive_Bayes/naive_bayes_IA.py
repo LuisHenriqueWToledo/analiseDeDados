@@ -1,8 +1,12 @@
 # Important imports for modeling and evaluation
+
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import GridSearchCV
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import recall_score, precision_score, f1_score, accuracy_score
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from sklearn.tree import plot_tree
+# Important imports for modeling and evaluation
+from sklearn.model_selection import GridSearchCV
 import sklearn.metrics as metrics
 
 # Define a variavel y (Target)
