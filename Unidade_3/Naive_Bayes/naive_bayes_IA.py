@@ -1,3 +1,10 @@
+# Important imports for modeling and evaluation
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GridSearchCV
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import plot_tree
+import sklearn.metrics as metrics
+
 # Define a variavel y (Target)
 
 y = extracted_data['Target']
